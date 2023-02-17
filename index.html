@@ -3,37 +3,227 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Potofolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Belajar Pemograman web dasar</title>
 
-    <!-- Feather Icons -->
+    <!-- feather icons -->
     <script src="https://unpkg.com/feather-icons"></script>
-
-    <!-- My Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,700&family=Sarabun:wght@300;500;700&display=swap"
-      rel="stylesheet"
-    />
 
     <!-- My Style -->
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
-
-  <header>
-    <h1>Mohamad Rizal Yulianto.</h1>
-    <p>
-      Saya merupakan mahasiswa univeristas ahmad dahlan dengan jurusan sistem
-      informasi, fokus saya dalam pembelajaran adalah dalam bidang Android
-      Developer dan Website developer.
-    </p>
-    <nav><a href="#"></a><a href=""></a><a href=""></a><a href=""></a></nav>
-  </header>
   <body>
-    <!-- Feather Icons -->
-    <script>
-      feather.replace();
-    </script>
+    <header class="h1">
+      <div class="jumbotron">
+        <h1>Rizal<span>Yulianto</span></h1>
+        <p>
+          Nama panjang saya adalah <strong>Mohamad Rizal Yulianto</strong>, saya
+          merupakan putra keturunan jawa yang dilahirkan tepatnya di kabupaten
+          kebumen jawa tengah. saat ini saya tertarik untuk belajar mengenal dan
+          mendalamai dalam bahasa pemograman webite, tentunya dengan adanya
+          dicoding membantu saya untuk belajar.
+        </p>
+      </div>
+
+      <!-- navbar start -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+      <!-- navbar end -->
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="home" class="card">
+          <h2>Hallo!!<br />Rizal<span>Yulianto</span></h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>
+            <a href="#" class="button">About</a>
+          </p>
+        </article>
+
+        <article id="Geografi" class="card">
+          <h2>Geografi</h2>
+          <figure>
+            <img
+              src="Asset/Geografi.png"
+              class="featured-image"
+              alt="Geografi"
+              width="1000px"
+            />
+            <figcaption>Gambar Geografi</figcaption>
+            <p>
+              Secara geografis Provinsi D.I. Yogyakarta terletak pada
+              8o30'-7o20' LS dan 109o40'-111o0' BT; luas wilayah 3.185,80 km2 ;
+              berbatasan dengan: a. Sebelah selatan berbatasan Samudera
+              Indonesia dan dibatasi dengan garis panjang pantai sepanjang 110
+              km.
+            </p>
+          </figure>
+        </article>
+
+        <article id="Wisata" class="card">
+          <h2>Wisata</h2>
+          <p>
+            ogyakarta atau dikenal oleh masyarakat setempat dengan nama Jogja
+            atau Yogya adalah ibu kota sekaligus pusat pemerintahan dan
+            perekonomian dari Daerah Istimewa Yogyakarta, Indonesia. Kota ini
+            adalah kota besar yang mempertahankan konsep tradisional dan budaya
+            Jawa
+          </p>
+
+          <section>
+            <h3>Museum Vanderburg</h3>
+            <figure>
+              <img
+                src="Asset/Gambar Museum.png"
+                class="featured-image"
+                alt="Museum Vanderburg"
+                width="1000px"
+              />
+              <figcaption>Museum Vanderburg</figcaption>
+            </figure>
+            <p>
+              Jika kita melintasi jalan Malioboro, disepanjang jalan tersebut
+              sampai titik nol kilometer tidak hanya berdiri bangunan pertokoan
+              melainkan pula bangunan peninggalan masa kolonial, salah satunya
+              Benteng Vredeburg. Benteng Vredeburg merupakan salah satu bangunan
+              yang menjadi saksi bisu peristiwa-peristiwa bersejarah yang
+              terjadi di Yogyakarta semenjak pemerintah kolonial Belanda masuk
+              ke Yogyakarta.
+            </p>
+          </section>
+
+          <section>
+            <h3>Pantai Parangtritis</h3>
+            <figure>
+              <img
+                src="Asset/pantai Parangtritis.jpg"
+                class="featured-image"
+                alt="Parangtritis"
+                width="1000px"
+              />
+              <figcaption>Pantai Parangtritis</figcaption>
+            </figure>
+            <p>
+              Pantai Parangtritis terletak 27 km selatan Kota Jogja dan mudah
+              dicapai dengan transportasi umum yang beroperasi hingga pk 17.00
+              maupun kendaraan pribadi. Sore menjelang matahari terbenam adalah
+              saat terbaik untuk mengunjungi pantai paling terkenal di
+              Yogyakarta ini. Namun bila Anda tiba lebih cepat, tak ada salahnya
+              untuk naik ke Tebing Gembirawati di belakang pantai ini. Dari sana
+              kita bisa melihat seluruh area Pantai Parangtritis, laut selatan,
+              hingga ke batas cakrawala.
+            </p>
+          </section>
+        </article>
+
+        <article id="Kuliner" class="card">
+          <h2>Kuliner</h2>
+          <p>
+            Yogyakarta yang terkenal membumi dan akrab di hati selalu mengundang
+            pelancong dari penjuru Nusantara untuk selalu kembali. Apalagi
+            ditambah reputasi Kota Jogja yang kaya jajanan jalanan yang ringan
+            di kantong, acara jalan-jalan makin asyik tentunya.
+          </p>
+
+          <section>
+            <h3>Gudeg</h3>
+            <figure>
+              <img
+                src="Asset/Gudeg.png"
+                class="featured-image"
+                alt="Gamabar Gudeg"
+                width="1000px"
+              />
+              <figcaption>Gudeg Yogyakarta</figcaption>
+            </figure>
+            <p>
+              Gudeg adalah salah satu masakan khas indonesia yang terkenal akan
+              kelezatannya. Masakan ini merupakan masakan tradisional dan khas
+              Provinsi Yogyakarta dan Jawa Tengah Indonesia. Dalam
+              perkembangannya, masyarakat mengenal gudeg terkenal berasal dari
+              Yogyakarta sehingga membuat kota ini dikenal dengan nama Kota
+              Gudeg.
+            </p>
+          </section>
+
+          <section>
+            <h3>Bakpia pathuk</h3>
+            <figure>
+              <img
+                src="Asset/bakpia pathuk.png"
+                class="featured-image"
+                alt="Gamabar Bakpia"
+                width="1000px"
+              />
+              <figcaption>Bakpia Pathuk Jogja</figcaption>
+            </figure>
+            <p>
+              Bakpia adalah makanan yang terbuat dari tepung terigu yang
+              dipanggang dengan isian berupa kacang hijau dicampur gula. Namun
+              makanan yang dianggap khas Jogja ini ternyata sebenarnya bukan
+              asli berasal dari Yogyakarta, melainkan berasal dari Cina. Menurut
+              penelitian yang dilakukan Amelia Puspita Sari dari Universitas
+              Gadjah Mada (UGM) dengan judul Bakpia Sebagai Bentuk Akulturasi
+              Budaya Indonesia dan Tiongkok di Bidang Kuliner (Studi Kasus
+              Bakpia 29), tertulis bakpia terbentuk dari pengaruh akulturasi
+              budaya Tionghoa dan Jawa. Perpaduan kuliner ini berhasil
+              menghidangkan kue enak dan nikmat. Bakpia menjadi bukti, benturan
+              budaya tidaklah berbahaya. Bakpia berasal dari dialek Hokkian
+              dengan nama asli Tou Luk Pia yang secara harfiah artinya kue atau
+              roti yang berisikan daging.
+            </p>
+          </section>
+        </article>
+      </div>
+
+      <aside class="profile-img">
+        <article class="profile card">
+          <header class="profile header">
+            <h2>profile</h2>
+            <figure>
+              <img
+                src="Asset/gambar saya.jpg"
+                alt="gambar saya"
+                width="100px"
+              />
+              <figcaption>gambar saya</figcaption>
+            </figure>
+          </header>
+
+          <section>
+            <h3>Informasi Lainya</h3>
+            <table>
+              <tr>
+                <th>Nama Lengkap</th>
+                <td>Mohamad Rizal Yulianto</td>
+              </tr>
+              <tr>
+                <th>Domisili</th>
+                <td>Kabupaten Bantul</td>
+              </tr>
+              <tr>
+                <th>Hobi</th>
+                <td>Sepak Bola</td>
+              </tr>
+              <tr>
+                <th>Contact</th>
+                <td>+6245-55-6-6-6</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Belajar Dasar Pemrograman Web &#169; 2023, JadiKoding.com</p>
+    </footer>
   </body>
 </html>
