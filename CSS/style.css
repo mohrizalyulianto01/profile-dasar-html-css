@@ -18,9 +18,11 @@ header {
   display: inline;
 }
 
+/* navbar */
+
 nav {
-  background-color: #00a2c6;
-  padding: 5px;
+  background-color: #1f96e0;
+  padding: 1px;
   position: sticky;
   top: 0;
 }
@@ -33,12 +35,12 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 nav a {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -56,6 +58,54 @@ nav a::after {
   transform: scale(0);
   transition: 0.2s linear;
 }
+/* navbar end */
+
+/* dropdown */
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #1f96e0;
+  transition: all 0.5s ease;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #1f96e0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* end */
+
 main {
   padding: 20px;
   display: flex;
@@ -84,13 +134,14 @@ h3 {
 footer {
   padding: 20px;
   color: #fff;
-  background-color: #00a2c6;
+  background-color: #1378de;
+  text-align: center;
 }
 
 .jumbotron {
   font-size: 20px;
   padding: 60px;
-  background-color: #00c8eb;
+  background-color: #1378de;
   text-align: center;
   color: white;
 }
@@ -101,7 +152,6 @@ footer {
 
 .featured-image {
   width: 100%;
-  max-height: 300px;
   object-fit: cover;
   object-position: center;
 }
@@ -113,7 +163,7 @@ footer {
 .card {
   box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  padding: 20px;
+  padding: 25px;
 }
 
 @media screen and (max-width: 1200px) {
